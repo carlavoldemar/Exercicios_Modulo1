@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html lang="en">
+	<head> 
+		<meta charset="utf-8">
+		<script src="rollover_library.js"></script>
+		<script>
+			var $ = function (id) { return document.getElementById(id);}
+			var rollover;
+			window.onload = function() {
+				rollover1 = new Rollover("image1", "images/vb10.jpg");
+				rollover2 = new Rollover("image2", "images/asp_vb.jpg");
+				rollover1 = new Rollover("image3", "images/ado_vb.jpg");
+			}
+		</script>
+
+	</head>
+	<body>
+		<p><img src="images/cs10.jpg" alt="" id="image1"></p>
+		<p><img src="images/asp_cs.jpg" alt="" id="image2"></p>
+		<p><img src="images/ado_cs.jpg" alt="" id="image3"></p>
+	</body>
+</html>
